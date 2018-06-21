@@ -6,7 +6,7 @@ try
 	// le nom de la base de donnée "dbname", 
 	// l'utilisateur, 
 	// et le mot de passe de la base de données
-	$bdd = new PDO('mysql:host=;dbname=;charset=utf8', '', '');
+	$bdd = new PDO('mysql:host=;dbname=;charset=utf8', 'identifiant', 'mot de passe');
 	// echo 'Connexion réussie';
 }
 catch (Exception $e)
