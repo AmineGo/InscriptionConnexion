@@ -1,6 +1,8 @@
 # InscriptionConnexion
+Auteur : AmineGo
 
-## Présentation des différents fichiers : 
+
+# Présentation des différents fichiers : 
 
 /BaseDeDonnees/AlimBDD.sql  => Contient un "insert" pour pouvoir faire un test de connexion sans passé obligatoirement par le formulaire d'inscription.
 
@@ -22,15 +24,20 @@
 
 index.php => Correspond à la page principale, par laquelle tout est réalisé.
 
-#Procédure : 
+# Procédure : 
 
-Il faut modifier 2 fichiers pour tout faire fonctionner correctement.
+Il faut modifier quelques lignes de code et effectué quelques étapes pour tout faire fonctionner correctement.
 
 Etape 1 : 
 /fonctions/connexionBDD.php
-    => Il faut renseigner la machine (host)
-    => Il faut renseigner la base de données (dbname)
-    => Il faut renseigner l'identifiant de la base de données
-    => Il faut renseigner le mot de passe de la base de données
+    => Il faut renseigner la machine (host).
+    => Il faut renseigner la base de données (dbname).
+    => Il faut renseigner l'identifiant de la base de données.
+    => Il faut renseigner le mot de passe de la base de données.
     
+Etape 2 :
+    => Lancer le script "/BaseDeDonnees/BaseDeDonnees.sql" dans la base de données.
+    => Si besoin lancer également le script "/BaseDeDonnees/AlimBDD.sql" dans la base de données.
+           ==> Permet d'avoir un jeu de données pour se connecter sans passer par l'inscription au préalable.
+
 
