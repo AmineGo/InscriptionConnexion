@@ -26,6 +26,8 @@ index.php => Correspond à la page principale, par laquelle tout est réalisé.
 
 # Procédure : 
 
+Il faut télécharger tout les fichiers.
+Il faut garder l'arborescance du site.
 Il faut modifier quelques lignes de code et effectué quelques étapes pour tout faire fonctionner correctement.
 
 Etape 1 : 
