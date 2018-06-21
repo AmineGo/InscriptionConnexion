@@ -30,15 +30,21 @@ Il faut modifier quelques lignes de code et effectué quelques étapes pour tout
 
 Etape 1 : 
 Dans le fichier "/fonctions/connexionBDD.php" :
+    
     -> Il faut renseigner la machine (host).
+    
     -> Il faut renseigner la base de données (dbname).
+    
     -> Il faut renseigner l'identifiant de la base de données.
+    
     -> Il faut renseigner le mot de passe de la base de données.
     
     
 Etape 2 :
     -> Lancer le script "/BaseDeDonnees/BaseDeDonnees.sql" dans la base de données.
+    
     -> Si besoin lancer également le script "/BaseDeDonnees/AlimBDD.sql" dans la base de données.
+    
            --> Permet d'avoir un jeu de données pour se connecter sans passer par l'inscription au préalable.
 
 
