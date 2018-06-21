@@ -1,6 +1,6 @@
 # InscriptionConnexion
 
-Présentation des différents fichiers : 
+#Présentation des différents fichiers : 
 
 /BaseDeDonnees/AlimBDD.sql  => Contient un "insert" pour pouvoir faire un test de connexion sans passé obligatoirement par le formulaire d'inscription.
 
@@ -21,3 +21,16 @@ Présentation des différents fichiers :
 /pages/Fdeconnexion.php => Contient le code pour se déconnecter de son compte. (Ne pas confondre avec la déconnexion de la base de données)
 
 index.php => Correspond à la page principale, par laquelle tout est réalisé.
+
+#Procédure : 
+
+Il faut modifier 2 fichiers pour tout faire fonctionner correctement.
+
+Etape 1 : 
+/fonctions/connexionBDD.php
+    => Il faut renseigner la machine (host)
+    => Il faut renseigner la base de données (dbname)
+    => Il faut renseigner l'identifiant de la base de données
+    => Il faut renseigner le mot de passe de la base de données
+    
+
