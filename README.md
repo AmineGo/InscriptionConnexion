@@ -30,10 +30,11 @@ Il faut modifier quelques lignes de code et effectué quelques étapes pour tout
 
 Etape 1 : 
 /fonctions/connexionBDD.php
-    => Il faut renseigner la machine (host).
-    => Il faut renseigner la base de données (dbname).
-    => Il faut renseigner l'identifiant de la base de données.
-    => Il faut renseigner le mot de passe de la base de données.
+    - Il faut renseigner la machine (host).
+    - Il faut renseigner la base de données (dbname).
+    - Il faut renseigner l'identifiant de la base de données.
+    - Il faut renseigner le mot de passe de la base de données.
+    
     
 Etape 2 :
     => Lancer le script "/BaseDeDonnees/BaseDeDonnees.sql" dans la base de données.
