@@ -1,6 +1,6 @@
 # InscriptionConnexion
 
-#Présentation des différents fichiers : 
+## Présentation des différents fichiers : 
 
 /BaseDeDonnees/AlimBDD.sql  => Contient un "insert" pour pouvoir faire un test de connexion sans passé obligatoirement par le formulaire d'inscription.
 
