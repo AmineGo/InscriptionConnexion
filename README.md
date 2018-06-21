@@ -41,6 +41,7 @@ Dans le fichier "/fonctions/connexionBDD.php" :
     
     
 Etape 2 :
+    
     -> Lancer le script "/BaseDeDonnees/BaseDeDonnees.sql" dans la base de données.
     
     -> Si besoin lancer également le script "/BaseDeDonnees/AlimBDD.sql" dans la base de données.
